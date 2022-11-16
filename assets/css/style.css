@@ -1457,7 +1457,7 @@ header {
 .homepage-4 .btn.btn-bordered-white::after,
 .homepage-4 .bg-overlay::after,
 .homepage-4 .grad-hover::before {
-    background: linear-gradient(45deg, #8340ff 15%, #5900ff 65%);
+    background: linear-gradient(45deg, #8340ff 15%, #5dcff1 65%);
 }
 
 /* ******************************
