@@ -1,13 +1,4 @@
 /* ************************************************************
-:: Template Name: Digimax - SEO & Digital Marketing Agency HTML Template
-:: Template URI: http://theme-land.com/digimax
-:: Template Author Name: theme_land
-:: Template Author URI: hridoy1272@gmail.com
-:: Version: 1.0.0
-:: Created: 13 Aug 2020
-************************************************************ 
-*
-*
 ******* :: INDEX OF CSS :: *******
 :: 1.0 WEB FONTS
 :: 2.0 IMPORT ALL CSS
@@ -592,7 +583,7 @@ img {
 
 /*BACKGROUND COLORS*/
 .color-1 {
-    color: #be63f9;
+    color: #38B6FF;
 }
 
 .color-2 {
@@ -617,7 +608,7 @@ img {
 
 .color-1.bg-hover:hover::after,
 .color-1.bg-hover.active::after {
-    background-color: #be63f9;
+    background-color: #38B6FF;
 }
 
 .color-2.bg-hover:hover::after,
