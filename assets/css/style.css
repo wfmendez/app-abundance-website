@@ -538,7 +538,7 @@ img {
     width: 100%;
     display: block;
     border-radius: 120px;
-    background: linear-gradient(-47deg, #8731E8 0%, #4528DC 100%);
+    background: linear-gradient(-47deg, #311DCF 0%, #38B6FF 100%);
     bottom: 0;
     right: 0;
     -webkit-transform: translate(35%, -28%) rotate(-35deg);
@@ -649,18 +649,18 @@ img {
 }
 
 .bg-overlay::after {
-    background: -webkit-radial-gradient(50% 50%, circle closest-side, #af52ed 0%, #8830df 100%);
+    background: -webkit-radial-gradient(50% 50%, circle closest-side, #38B6FF 0%, #311DCF 100%);
 }
 
 .breadcrumb-area.bg-overlay::after {
-    background: linear-gradient(-45deg, #af52ed 0%, #8830df 100%);
+    background: linear-gradient(-45deg, #38B6FF 0%, #311DCF 100%);
 }
 
 .btn,
 .btn:active,
 .btn.btn-bordered:before,
 .btn.btn-bordered-white:after {
-    background: linear-gradient(-45deg, #af52ed 0%, #8830df 100%);
+    background: linear-gradient(-45deg, #38B6FF 0%, #311DCF 100%);
 }
 
 /*SOCIAL ICONS*/
@@ -1381,7 +1381,7 @@ header {
 .homepage-2 .btn.btn-bordered-white::after,
 .homepage-2 .bg-overlay::after,
 .homepage-2 .benifits-item::after {
-    background: linear-gradient(135deg, #be63f9 0%, #0449c4 100%);
+    background: linear-gradient(135deg, #38B6FF 0%, #0449c4 100%);
 }
 
 /* ******************************
@@ -1391,11 +1391,11 @@ header {
 .homepage-3 .btn.btn-bordered-white::after,
 .homepage-3 .bg-overlay::after,
 .homepage-3 .grad-hover::before {
-    background: linear-gradient(135deg, #10054d 0%, #45108a 100%);
+    background: linear-gradient(135deg, #10054d 0%, #38B6FF 100%);
 }
 
 .homepage-3 .play-icon {
-    color: #45108a;
+    color: #38B6FF;
 }
 
 .homepage-3 .welcome-thumb-2 {
@@ -1961,7 +1961,7 @@ body.dark,
     width: 100%;
     top: 0;
     left: 0;
-    background: linear-gradient(135deg, #be63f9 0%, #0449c4 100%);
+    background: linear-gradient(135deg, #38B6FF 0%, #0449c4 100%);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2115,11 +2115,11 @@ body.dark,
 }
 
 .homepage-2 .play-btn {
-    background-color: rgba(252, 87, 59, 0.75);
+    background-color: rgba(59, 191, 252, 0.75);
 }
 
 .homepage-2 .btn-circle {
-    background-color: rgba(252, 87, 59, 0.2);
+    background-color: rgba(59, 252, 252, 0.2);
 }
 
 .homepage-2 .play-icon {
@@ -2375,7 +2375,7 @@ body.dark,
     font-weight: 900;
     line-height: 1em;
     letter-spacing: -1.6px;
-    background-image: linear-gradient(45deg, #af52ed 15%, #8830df 65%);
+    background-image: linear-gradient(45deg, #38B6FF 15%, #311DCF 65%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -2417,9 +2417,9 @@ body.dark,
 }
 
 .pagination > li.active > a {
-    background: linear-gradient(45deg, #af52ed 15%, #8830df 65%);
+    background: linear-gradient(45deg, #38B6FF 15%, #311DCF 65%);
     color: #fff;
-    border: 1px solid #af52ed;
+    border: 1px solid #38B6FF;
 }
 
 .pagination li:first-child a,
@@ -2488,7 +2488,7 @@ body.dark,
 }
 
 .widget-items li a.active {
-    color: #7c4fe0;
+    color: #311DCF;
 }
 
 .widget-items li a span {
