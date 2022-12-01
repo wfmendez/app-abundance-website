@@ -587,7 +587,7 @@ img {
 }
 
 .color-2 {
-    color: #26c6da;
+    color: #38B6FF;
 }
 
 .color-3 {
@@ -649,7 +649,7 @@ img {
 }
 
 .bg-overlay::after {
-    background: -webkit-radial-gradient(50% 50%, circle closest-side, #38B6FF 0%, #311DCF 100%);
+    background: -webkit-radial-gradient(50% 50%, circle closest-side, #38B6FF 0%, #4488ff 100%);
 }
 
 .breadcrumb-area.bg-overlay::after {
