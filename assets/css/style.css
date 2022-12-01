@@ -225,6 +225,10 @@ img {
     color: #666 !important;
 }
 
+.text-yellow {
+    color: #e9cc3d;
+}
+
 .form-control {
     font-size: 15px;
     height: 60px;
