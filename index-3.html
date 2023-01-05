@@ -159,7 +159,7 @@
                     <!-- Navbar Action Button -->
                     <ul class="navbar-nav action">
                         <li class="nav-item ml-3">
-                            <a href="#" class="btn ml-lg-auto btn-bordered-white"><i class="fas fa-paper-plane contact-icon mr-md-2"></i>Contáctanos</a>
+                            <a href="contact.html" class="btn ml-lg-auto btn-bordered-white"><i class="fas fa-paper-plane contact-icon mr-md-2"></i>Contáctanos</a>
                         </li>
                     </ul>
                 </div>
@@ -178,7 +178,7 @@
                             <p class="text-white my-4">Deja der inexistente y hazte presente, el internet te espera.</p>
                             <!-- Buttons -->
                             <div class="button-group">
-                                <a href="#" class="btn btn-bordered-white">Contáctanos</a>
+                                <a href="contact.html" class="btn btn-bordered-white">Contáctanos</a>
                                 <a href="#" class="btn btn-bordered-white d-none d-sm-inline-block">¡Expande tus límites!</a>
                             </div>
                         </div>
@@ -454,7 +454,7 @@
                 </div>
                 <div class="row justify-content-center pt-5">
                     <p class="pt-4 fw-5">¿No estás seguro de que escoger? <a class="service-btn"
-                            href="#"><strong>Contáctanos</strong></a></p>
+                            href="contact.html"><strong>Contáctanos</strong></a></p>
                 </div>
             </div>
         </section>
@@ -646,7 +646,7 @@
                             <h2 class="text-white">Hagamos algo totalmente personalizado para ti</h2>
                             <p class="text-white d-none d-sm-block mt-4"></p>
                             <p class="text-white d-block d-sm-none mt-4"></p>
-                            <a href="#" class="btn btn-bordered-white mt-4">Contáctanos</a>
+                            <a href="contact.html" class="btn btn-bordered-white mt-4">Contáctanos</a>
                         </div>
                     </div>
                 </div>
@@ -794,6 +794,44 @@
 
     <!-- Active js -->
     <script src="assets/js/active.js"></script>
+
+    <!-- Whatsapp button -->
+    <script>
+        var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?14029';
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = url;
+        var options = {
+            "enabled": true,
+            "chatButtonSetting": {
+                "backgroundColor": "#4dc247",
+                "ctaText": "Enviar un mensaje",
+                "borderRadius": "25",
+                "marginLeft": "50",
+                "marginBottom": "20",
+                "marginRight": "85",
+                "position": "right"
+            },
+            "brandSetting": {
+                "brandName": "App Abundance",
+                "brandSubTitle": "Llena de abundancia tu futuro",
+                "brandImg": "https://i.postimg.cc/3NvPXsNL/Ap-Ab-1.png",
+                "welcomeText": "Hola, ¿Cómo podemos ayudarte?",
+                "messageText": "Hola, ¿Cómo podemos ayudarte?",
+                "backgroundColor": "#0a5f54",
+                "ctaText": "Start Chat",
+                "borderRadius": "25",
+                "autoShow": false,
+                "phoneNumber": "584144896306"
+            }
+        };
+        s.onload = function () {
+            CreateWhatsappChatWidget(options);
+        };
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+    </script>
 </body>
 
 </html>
