@@ -1,4 +1,5 @@
 app-abundance-website 🚀
+
 Welcome to the App Abundance website repository! 👋 This project represents the official website for my entrepreneurial venture, an initiative dedicated to helping individuals and businesses thrive in the digital world through strategic web design and effective digital marketing.
 
 This site was designed and developed to be App Abundance's primary calling card, communicating our mission, services, and philosophy to potential clients.
